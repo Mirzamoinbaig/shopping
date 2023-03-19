@@ -36,7 +36,7 @@ opacity: 0.8;
 }
 
 #gmail span{
-    font-size: 12px;
+    font-size: 10px;
 }
 #media img{
 height: 25px;
@@ -51,10 +51,10 @@ width: 25px;
 }
 #up span{
     font-size: 25px;
-    color: #1c1c1c9e;
+    color: #1c1c1cfd;
 }
 #up span:hover{
-    color: #ff0000;
+    color: #ff8400;
     transform:scale(1.1);
     transition: .2s;
 }
@@ -66,10 +66,10 @@ width: 25px;
 }
 #down span{
     font-size: 25px;
-    color: #1c1c1c9e;
+    color: #1c1c1cfd;
 }
 #down span:hover{
-    color: #ff0000;
+    color: #ff8400;
     transform:scale(1.1);
     transition: .2s;
 }
@@ -79,28 +79,39 @@ width: 25px;
     padding: 0px;
    }
    .brands{
-    margin-left: -60px;
-    margin-right: -60px; 
+    margin-left: -6px;
+    margin-right: -5px; 
+   }
+   .brands img{
+    margin-bottom: 5px;
    }
    .product{
-    margin-left: -60px;
-    margin-right: -60px;
+    margin-left: -5px;
+    margin-right: -5px;
+   }
+   .product .card{
+margin-bottom: 10px;
    }
 #store{
-    margin-left: -60px;
-    margin-right: -180px;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: 10px;
+   
 }
-.pre{
-    margin-left: -60px;  margin-right: -180px;
-}
-   #banner3{
-    margin-left: -80px;
-    margin-right: -80px;
-   }
-    #footercurrency{
+#store img{
+ margin-bottom: 10px;
 
-        margin-right: -350px;
-       font-size: 10px;
+}
+
+   #banner3{
+    margin-left: -95px;
+    margin-right: -95px;
+   }
+    #currency{
+        display: unset;
+        flex-direction: column;
+        margin-left: -220px;
+       font-size: 30px;
     }
     #select1 {
         padding-bottom: 20px;
