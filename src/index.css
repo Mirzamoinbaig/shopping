@@ -97,11 +97,10 @@ width: 25px;
     margin-left: -80px;
     margin-right: -80px;
    }
-    #currency{
-        display: unset;
-        flex-direction: column;
-        margin-left: -200px;
-       font-size: 30px;
+    #footercurrency{
+
+        margin-right: -350px;
+       font-size: 10px;
     }
     #select1 {
         padding-bottom: 20px;
